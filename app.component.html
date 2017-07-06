@@ -1,0 +1,12 @@
+<table>
+  	<thead>
+        <th>Array Index</th>
+  			<th>Name</th>
+  	</thead>
+  	<tbody>
+  			<tr *ngFor="let user of users ; let i = index">
+          <td>{{i}}</td>
+          <td>{{user.name}}</td>
+        </tr>
+  	</tbody>
+ </table>
